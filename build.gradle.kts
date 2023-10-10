@@ -31,7 +31,7 @@ val ndkVersion by extra(System.getenv("ANDROID_NDK_VERSION"))
 buildscript {
   repositories {
     google()
-    mavenCentral()
+    mavenLocal()
     gradlePluginPortal()
   }
   dependencies {
